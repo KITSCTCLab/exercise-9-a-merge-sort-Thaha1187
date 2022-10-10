@@ -13,7 +13,7 @@ def merge_sort(data):
             if lefthalf[i] < righthalf[j]:
                 data[k]=lefthalf[i]
                 i=i+1
-            else
+            else:
                 data[k]=righthalf[j]
                 j=j+1
             k=k+1
@@ -37,4 +37,4 @@ for item in input_data.split(', '):
   elif item.lstrip("-").isnumeric():
     data.append(int(item))
 merge_sort(data)
-print(data)
+print(data
